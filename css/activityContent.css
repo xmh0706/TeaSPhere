@@ -1,0 +1,96 @@
+#main{
+	width: 1040px;
+	margin: 0 auto;
+}
+#main #navList{
+	height: 20px;
+	padding-top:104px;
+	margin-bottom: 36px;
+}
+#main #navList li{
+	float: left;
+}
+#main #navList .arrow{
+	width: 8px;
+	height: 12px;
+	background-image: url(../image/activity/activityContent/0B8B825E-7547-4178-9DA2-DE27CAF83E07@2x.png);
+	background-size:cover;
+	margin: 0 2px;
+	position: relative;
+	top:5px; 
+}	
+#main #navList li a{
+	font-size: 14px;
+	font-family:PingFangSC-Light;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:1.46px;
+	text-align:left;
+}
+
+#main #navList li a.first{
+	color:#000000;
+}
+#content{
+	width: 690px;
+	margin-bottom: 40px;
+	text-align:left;
+}
+#content .contentTop{
+	margin-bottom: 23px;
+	text-align: left;
+	height: 53px;
+}
+#content .contentTop .contentTitle{
+	font-family:PingFangSC-Regular;
+	font-size:24px;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:2.53px;
+}
+#content .contentTop .contentDate{
+	font-size:14px;
+	color:#9b9b9b;
+	letter-spacing:1.46px;
+}
+#content .contentText{
+
+}
+#content .contentText .text{
+	font-family:PingFangSC-Light;
+	font-size:14px;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:3px;
+
+	margin-bottom: 20px;
+}
+#content .contentText img{
+	width: 690px;
+	height: auto;
+	margin:20px 0;
+}
+#contentRight{
+	width: 277px;
+	font-family:PingFangSC-Light;
+	float: right;
+
+}
+#contentRight ul li{
+	margin-bottom: 17px;
+	cursor: pointer;
+}
+#contentRight ul li img{
+	width: 277px;
+	height: 144px;
+}
+#contentRight ul li .activityName{
+	font-size:16px;
+	color:#000000;
+	letter-spacing:1.67px;
+}
+#contentRight ul li .activityDate{
+	font-size:14px;
+	color:#9b9b9b;
+	letter-spacing:1.46px;
+}
+#contentRight ul li:hover .activityName{
+	color: #bb1020;
+}

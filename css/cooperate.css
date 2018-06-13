@@ -1,0 +1,82 @@
+#main{
+	width: 1040px;
+	margin: 71px auto 105px;
+	position: relative;
+}
+#main #mainLeft{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 224px;
+}
+#main #mainLeft li{
+	font-family:PingFangSC-Light;
+	font-size:16px;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:1.69px;
+	text-align:center;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	position: relative;
+	border-bottom:1px solid #eeeeee;
+	cursor: pointer;
+}
+#main #mainLeft .leftListNow{
+	background: #eeeeee;
+	color:#bb1020;
+
+}
+#main #mainRight{
+	width: 690px;
+	margin-left: 350px;
+}
+#main #mainRight li{
+	display: none;
+}
+#main #mainRight #mainRightItem1{
+	display: block;
+}
+#main .mainItemTitle{
+	font-size: 24px;
+	line-height: 24px;
+	font-family:PingFangSC-Regular;
+	position: relative;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:2.53px;
+	margin-bottom: 43px;
+}
+#main .mainItemTitle:before,#main .mainItemTitle:after{
+	content: "\20";
+	width:51px;
+	height: 2px;
+	position: absolute;
+	bottom: -13px;
+	background-size: cover;
+}
+#main .mainItemTitle:before{
+	background-image: url(../image/cooperate/D5BB4E22-8014-4F4E-A02C-280442B1CE36@1x.png);
+}
+#main .mainItemTitle:after{
+	background-color:rgba(0,0,0,0.25);
+	left: 51px;
+}
+#main #mainRight #mainRightItem1 .mainItemText{
+	margin-top: 0px;
+	
+}
+#main #mainRight .mainItemText{
+	margin-top: 63px;
+	font-size: 14px;
+	line-height: 20px;
+	font-family:PingFangSC-Light;
+	font-size:14px;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:3px;
+	text-align:left;
+}
+#main #mainRight .mainItemText .img{
+	margin-top: 49px;
+	position: relative;
+}
+

@@ -1,0 +1,52 @@
+#activity{
+	width: 1040px;
+	margin: 0 auto;
+}
+#activity .activityTitle{
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 77px;
+}
+#activity .activityText{
+	padding-bottom: 76px;
+}
+#activity .activityText ul{
+	/*display: -webkit-flex;
+  	display: flex;
+  	flex-wrap:wrap;
+  	justify-content:space-between;*/
+}
+#activity .activityText ul li{
+	width: 330px;
+	height: 231px;
+ 	margin-bottom:48px; 
+	text-align:left;
+	font-family:PingFangSC-Light;
+	cursor:pointer ;
+	float: left;
+	margin-right:25px;
+
+}
+#activity .activityText ul li.rowLast{
+	margin-right: 0
+}
+
+#activity .activityText ul .activityTextLast{
+	margin-bottom: 0
+}
+#activity .activityText ul li .activityName{
+	letter-spacing:1.67px;
+	font-size:16px;
+	color:#000000;
+}
+#activity .activityText ul li .activityDate{
+	font-size:14px;
+	color:#9b9b9b;
+	letter-spacing:1.46px;
+}
+#activity .activityText ul li:hover img{
+	transform: scale(1.005,1.01);
+}
+#activity .activityText ul li:hover .activityName{
+	color: #bb1020;
+}

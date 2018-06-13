@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" href="" type="image/x-icon"/>
+		 <!-- title图标暂缺 -->
+		<title>TEA SPhere</title>
+		<link rel="stylesheet" type="text/css" href="css/head.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<div id="head">
+			<div class="headLogo"></div>
+			<ul class="navList">
+				<li><a href="findus.html">联系我们</a></li>
+				<li><a href="cooperate.html">合作加盟</a></li>
+				<li><a href="acitivity.html">最新活动</a></li>
+				<li><a href="about.html">关于我们</a></li>
+				<li class="navList1"><a href="javascript:;" class="listNow">首页</a></li>
+			</ul>
+		</div>
+	</header>
+	<ul id="animate-wrap">
+		<li id="autoPlayWarp">
+			<div id="autoWarp" 	class="autoWarp"></div>
+			<div id="playBtn" onclick="openVideo('playBox','bigVideo')"></div>
+			<!-- 播放暂缺 -->
+			<div id="playBox">
+					<video  id="bigVideo" controls="controls"  preload="auto">
+						<source type="video/mp4" src="video/luckincoffee_TVC30.mp4"></source>
+					</video>
+					<div id="close" onclick="closeVideo('playBox','bigVideo')"></div>
+			</div>
+			<!-- video暂缺 -->
+		</li>
+		<li id="commitment">
+			<ul id="commitmentWarp" class="commitmentWarp">
+				<li id="commitmentWarpli1">
+					<div class="commitmentWarpImg img1"></div>
+					<div class="commitmentWarpTitleLeft">相<span>遇</span></div>
+					<div class="commitmentWarpText text1">
+						某年某月某日<br>
+						她点了一杯<span>瑰丽洛神</span><br>
+						搭配她一身的长裙
+					</div>
+				</li>
+				<li id="commitmentWarpli2">
+					<div class="commitmentWarpImg img2"></div>
+					<div class="commitmentWarpTitleRight">毕<span>业</span></div>
+					<div class="commitmentWarpText text2">
+						某年某月某日<br>
+						我们用艳丽的<span>热带风情</span><br>
+						预祝我们精彩的前程
+					</div>
+				</li>
+				<li id="commitmentWarpli3">
+					<div class="commitmentWarpImg img3"></div>
+					<div class="commitmentWarpTitleLeft">旅<span>途</span></div>
+					<div class="commitmentWarpText text3" >
+						某年某月某日<br>
+						暖暖<span>琥珀珍珠</span><br>
+						犒赏我们无畏地征服长城
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li id="find">
+			<div id="findTitle" class="findTitle">
+				<div class="chinese">寻觅终有所获</div>
+				<div class="english">Find your favorite flavor</div>
+			</div>
+			<ul id="findText" class="findText">
+				<li class="findTextLi1">
+					<div id="findFont" class="findFont">
+						<div class="findFontTitle">醇香奶盖</div>
+						<div class="findFontText">适合细腻的你</div>
+					</div>
+				</li>
+				<li class="findTextLi2">
+					<div id="findFont" class="findFont">
+						<div class="findFontTitle">醇香奶盖</div>
+						<div class="findFontText">适合细腻的你</div>
+					</div>
+				</li>
+				<li class="findTextLi3">
+					<div id="findFont" class="findFont">
+						<div class="findFontTitle">醇香奶盖</div>
+						<div class="findFontText">适合细腻的你</div>
+					</div>
+				</li>
+				<li class="findTextLi4">
+					<div id="findFont" class="findFont">
+						<div class="findFontTitle">醇香奶盖</div>
+						<div class="findFontText">适合细腻的你</div>
+					</div>
+				</li>
+				<li id="findFont" class="findTextLi5">
+					<div class="findFont">
+						<div class="findFontTitle">醇香奶盖</div>
+						<div class="findFontText">适合细腻的你</div>
+					</div>
+				</li>
+				<div style="clear: both;"></div>
+			</ul>
+		</li>
+		<li id="products">
+			<div id="productsTitle" class="productsTitle">
+				<div class="chinese">宣传视频</div>
+				<div class="english">Products Video</div>
+			</div>
+			<div id="productsText" class="productsText">
+				<ul>
+					<li class="productsTextLi1">
+						<div class="productsBg" onclick="openVideo('productsVideoBox','middleVideo')">
+							<div id="playMiddleBtn" ></div>
+						</div>
+						<div id="productsVideoBox" onclick="closeVideo('productsVideoBox','middleVideo')">
+							<video  id="middleVideo" controls="controls"  preload="auto">
+								<source type="video/mp4" src="video/luckincoffee_TVC30.mp4"></source>
+							</video>
+							<div id="middleClose" onclick="closeVideo('productsVideoBox','middleVideo')"></div>
+						</div>
+					</li>
+					<li class="productsTextLi2">
+						<div class="productsBg" onclick="openVideo('productsVideoBox','middleVideo')">
+							<div id="playMiddleBtn" ></div>
+						</div>
+						<div id="productsVideoBox" onclick="closeVideo('productsVideoBox','middleVideo')">
+							<video  id="middleVideo" controls="controls"  preload="auto">
+								<source type="video/mp4" src="video/luckincoffee_TVC30.mp4"></source>
+							</video>
+							<div id="middleClose" onclick="closeVideo('productsVideoBox','middleVideo')"></div>
+						</div>
+					</li>
+					<li class="productsTextLi3">
+						<div class="productsBg" onclick="openVideo('productsVideoBox','middleVideo')">
+							<div id="playMiddleBtn" ></div>
+						</div>
+						<div id="productsVideoBox" onclick="closeVideo('productsVideoBox','middleVideo')">
+							<video  id="middleVideo" controls="controls"  preload="auto">
+								<source type="video/mp4" src="video/luckincoffee_TVC30.mp4"></source>
+							</video>
+							<div id="middleClose" onclick="closeVideo('productsVideoBox','middleVideo')"></div>
+						</div>
+					</li>
+				</ul>
+				<div style="clear: both;"></div>
+			</div>
+		</li>
+		<li id="activity">
+			<div id="activityTitle" class="activityTitle">
+				<div class="chinese">最新活动</div>
+				<div class="english">News</div>
+			</div>
+			<ul id="activityText">
+				<li>
+					<div class="actNumber">2018.5.9</div>
+					<div class="actFont">喜迎茶势力首家旗舰店在武汉光谷广场盛大开业</div>
+				</li>
+				<li>
+					<div class="actNumber">2018.5.9</div>
+					<div class="actFont">喜迎茶势力首家旗舰店</div>
+				</li>
+				<li>
+					<div class="actNumber">2018.5.9</div>
+					<div class="actFont">喜迎茶势力首家旗舰店在武汉光谷广场盛大开业第二天</div>
+				</li>
+				<li class="actLast">
+					<a href="acitivity.html">
+						更多<div class="actMore"></div>
+					</a>
+				</li>
+			</ul>
+		</li>
+		<li id="cooperate">
+			<div id="cooperateLeft"></div>
+			<div id="cooperateRight">
+				<div class="cooperateTitle">
+					<div class="chinese">品牌合作</div>
+					<div class="english">Cooperate</div>
+				</div>
+				<div class="cooperateText">
+					<ul >
+						<li>
+							茶势力，致力于以新零售思维与信息技术，为茶饮行业带来全新的商业模式，多方面拓宽合作商的盈利能力，是以【新零售茶饮】商业模式的引领者，也是真正落地的实现者。
+						</li>
+						<li>
+							茶势力，不仅仅是个消费者追捧热买的茶饮品牌，本质上更是一个集餐饮、零售
+							社交运营、流量变现、金融支持、跨业营销融合......等等元素为一体的新零售平台
+						</li>
+						<li>
+							商业伙伴通过茶势力平台所建立多种形式获得收入，同时，商业伙伴并不需要投入大量的人力与精力，而是由总部平台庞大资源的支持来实现。
+						</li>
+						<li>
+							茶势力，秉持利他精神为企业关键理念，愿与广大合作商共赢发展，最大程度的向外分享合理利润，与商业伙伴们形成稳固持续的战略合作关系，而非传统意义上极其松散的特许加盟商户关系
+						</li>
+						<li class="cooperateLiLast">
+							<div class="cooperateLiPhoto">400 7778 899</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+		</li>
+		<li id="last">
+			<ul >
+				<li>每个人都有自己的圈子、领域、势力范围....</li>
+				<li>和你一样，我们都在自己的领域中，努力保持着中心点的稳定强大</li>
+				<li>并且，不断的扩大势力、范围....</li>
+			</ul>
+		</li>
+	</ul>
+	<footer>
+		<div class="footContent">
+			<div class="footLogo"></div>
+		</div>
+		<ul class="footText">
+			<li>云动科技集团下属产品</li>
+			<li>河南茶势力餐饮管理有限公司</li>
+			<li class="little">北方市场中心：郑州市二十七区二环支路瑞光街瑞光创意工厂壹号院 A408</li>
+			<li class="little">南方市场中心：东莞市东城区新基地科技创业园 A601</li>
+			<li class="little">粤 ICP 备字 xxxxxxxx 号</li>
+		</ul>
+		<div class="footImg">
+			<div class="wx">微信</div>
+			<div class="wb">微博</div>
+		</div>
+	</footer>
+</body>
+</html>
