@@ -13,15 +13,18 @@ window.onload=function(){
 		var bigWd2=image2.width
 		var bigHt2=image2.height
 		var scale2=bigHt2/bigWd2	
-		function autoPlayHW(id){
-			var obj = document.getElementById(id);
-			var wh=window.innerWidth
-			var autoHt = wh*scale //autoPlayWarp高度	
-				obj.style.height=autoHt+"px";
-				obj.style.width=wh+"px"; 
-		}
-		autoPlayHW('autoPlayWarp')
-		autoPlayHW('autoWarp')
+		// function autoPlayHW(id){
+		// 	var obj = document.getElementById(id);
+		// 	var wh=window.innerWidth
+		// 	var autoHt = wh*scale //autoPlayWarp高度	
+		// 		obj.style.height=autoHt+"px";
+		// 		obj.style.width=wh+"px"; 
+		// }
+		// autoPlayHW('autoPlayWarp')
+		// autoPlayHW('autoWarp')
+		var find = document.getElementById("autoPlayWarp").offsetWidth
+		$("#autoPlayWarp").css("height",find*scale +"px")
+		$("#autoWarp").css("height",find*scale+"px")
 		var find = document.getElementById("findFont").offsetWidth
 		$("#findText li").css("height",find*scale2 +"px")
 		$("#findText li div").css("height",find*scale2+"px")
@@ -96,15 +99,18 @@ $(window).resize(function(){
 		var bigWd2=image2.width
 		var bigHt2=image2.height
 		var scale2=bigHt2/bigWd2	
-		function autoPlayHW(id){
-			var obj = document.getElementById(id);
-			var wh=window.innerWidth
-			var autoHt = wh*scale //autoPlayWarp高度	
-				obj.style.height=autoHt+"px";
-				obj.style.width=wh+"px"; 
-		}
-		autoPlayHW('autoPlayWarp')
-		autoPlayHW('autoWarp')
+		// function autoPlayHW(id){
+		// 	var obj = document.getElementById(id);
+		// 	var wh=window.innerWidth
+		// 	var autoHt = wh*scale //autoPlayWarp高度	
+		// 		obj.style.height=autoHt+"px";
+		// 		obj.style.width=wh+"px"; 
+		// }
+		// autoPlayHW('autoPlayWarp')
+		// autoPlayHW('autoWarp')
+		var find = document.getElementById("autoPlayWarp").offsetWidth
+		$("#autoPlayWarp").css("height",find*scale +"px")
+		$("#autoWarp").css("height",find*scale+"px")
 		var find = document.getElementById("findFont").offsetWidth
 		$("#findText li").css("height",find*scale2 +"px")
 		$("#findText li div").css("height",find*scale2+"px")
