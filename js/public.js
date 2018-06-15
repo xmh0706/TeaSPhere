@@ -59,7 +59,7 @@ $(window).resize(function(){
 		// 	obj.style.height=autoHt+"px";
 		// 	obj.style.width=wh+"px";
 		// }
-		autoPlayHW('autoPlayWarp')
+		// autoPlayHW('autoPlayWarp')
 		var find = document.getElementById("autoPlayWarp").offsetWidth
 		$("#autoPlayWarp").css("height",find*scale +"px")
 	}	
