@@ -32,14 +32,16 @@ $(document).ready(function(){
 		var bigWd=image.width
 		var bigHt=image.height
 		var scale=bigHt/bigWd
-		function autoPlayHW(id){
-			var obj = document.getElementById(id);
-			var wh=window.innerWidth
-			var autoHt = wh*scale //autoPlayWarp高度	
-			obj.style.height=autoHt+"px";
-			obj.style.width=wh+"px";
-		}
-		autoPlayHW('autoPlayWarp')
+		// function autoPlayHW(id){
+		// 	var obj = document.getElementById(id);
+		// 	var wh=window.innerWidth
+		// 	var autoHt = wh*scale //autoPlayWarp高度	
+		// 	obj.style.height=autoHt+"px";
+		// 	obj.style.width=wh+"px";
+		// }
+		// autoPlayHW('autoPlayWarp')
+		var find = document.getElementById("autoPlayWarp").offsetWidth
+		$("#autoPlayWarp").css("height",find*scale +"px")
 	}	
 })
 $(window).resize(function(){
@@ -50,14 +52,16 @@ $(window).resize(function(){
 		var bigWd=image.width
 		var bigHt=image.height
 		var scale=bigHt/bigWd
-		function autoPlayHW(id){
-			var obj = document.getElementById(id);
-			var wh=window.innerWidth
-			var autoHt = wh*scale //autoPlayWarp高度	
-			obj.style.height=autoHt+"px";
-			obj.style.width=wh+"px";
-		}
+		// function autoPlayHW(id){
+		// 	var obj = document.getElementById(id);
+		// 	var wh=window.innerWidth
+		// 	var autoHt = wh*scale //autoPlayWarp高度	
+		// 	obj.style.height=autoHt+"px";
+		// 	obj.style.width=wh+"px";
+		// }
 		autoPlayHW('autoPlayWarp')
+		var find = document.getElementById("autoPlayWarp").offsetWidth
+		$("#autoPlayWarp").css("height",find*scale +"px")
 	}	
 	// autoPlayHW('autoPlay')
 })
