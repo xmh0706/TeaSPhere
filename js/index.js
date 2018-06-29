@@ -39,6 +39,7 @@ window.onload=function(){
 			com1.style.opacity='1'
 		}
 	}
+
 	animate("commitment","commitmentWarpli1",600)
 	animate("commitment","commitmentWarpli2",600)
 	animate("commitment","commitmentWarpli3",600)
