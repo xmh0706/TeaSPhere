@@ -15,7 +15,7 @@
 /*video用的CSS*/
 #animate-wrap #autoPlayWarp .autoWarp{
 	position: absolute;
-	background: url(../image/index/41FF3C78-6827-429C-A5F3-5E68C8F630D6@2x.png) no-repeat;
+	background: url(../image/index/41FF3C78-6827-429C-A5F3-5E68C8F630D6@1x.png) no-repeat;
 	background-size: cover;
 	min-width: 1040px;
 	min-height: 560px;
@@ -392,7 +392,7 @@
 	height: auto;
 	min-width: 520px;
 	height: 600px;
-	background-image: url(../image/index/CA512086-C126-493A-9449-41B584B700DE@2x.png);
+	background-image: url(../image/index/CA512086-C126-493A-9449-41B584B700DE@1x.png);
 	background-size: cover;
 	float: left;
 

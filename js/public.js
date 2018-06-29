@@ -27,7 +27,7 @@ $(document).ready(function(){
 	})
 ////获取轮播图片宽高
 	var image= new Image();
-	image.src="image/public/1C18E3E0-A482-49BB-8662-F3A62BA0A503@2x.png"
+	image.src="image/public/5DBBD51A-A150-49B1-83E0-D1F4A7673ED3@1x.png"
 	image.onload=function(){
 		var bigWd=image.width
 		var bigHt=image.height

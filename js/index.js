@@ -2,7 +2,7 @@ window.onload=function(){
 //读取时设置播放背景宽和高
 	var image= new Image();
 	var image2= new Image()
-	image.src="image/index/41FF3C78-6827-429C-A5F3-5E68C8F630D6@2x.png"
+	image.src="image/index/41FF3C78-6827-429C-A5F3-5E68C8F630D6@1x.png"
 	//获取autoPlayWarp大图位置
 	image2.src="image/index/3867EF6E-3FA2-4C01-8072-DD7A347B48F0@2x.png"
 		//获取find图位置
