@@ -74,8 +74,8 @@
 #main #mainRight .mainItemText .img1{
 	margin-top: 20px;
 	margin-bottom: 36px;
+	
 }
-#main #mainRight .mainItemText .img2{
-	margin-top: 38px;
-	margin-bottom: 27px;
+#main #mainRight .mainItemText .img1 img{
+	width: 690px;
 }

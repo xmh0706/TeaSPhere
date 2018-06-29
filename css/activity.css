@@ -43,6 +43,7 @@
 	font-size:14px;
 	color:#9b9b9b;
 	letter-spacing:1.46px;
+
 }
 #activity .activityText ul li:hover img{
 	transform: scale(1.005,1.01);

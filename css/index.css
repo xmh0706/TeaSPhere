@@ -1,7 +1,7 @@
 
 #animate-wrap{
 	width:100%;
-	padding-top: 60px;
+	padding-top: 0px;
 	margin-bottom: 111px;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -184,9 +184,8 @@
 #find .findText li{
 	background-size: cover;
 	float: left;
-	height: 455px;
 	overflow: hidden;
-	width: 20%;
+	width: 16.6666666%;
 	cursor: pointer;
 }
 #find .findText .findTextLi1{
@@ -202,6 +201,9 @@
 	background-image: url(../image/index/3867EF6E-3FA2-4C01-8072-DD7A347B48F0@2x.png);
 }
 #find .findText .findTextLi5{
+	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
+}
+#find .findText .findTextLi6{
 	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
 }
 #find .findText .findFont{
@@ -236,90 +238,6 @@
 }
 #find .findText .findFont:hover{
 	opacity: 1
-}
-#products{
-	width: 1040px;
-	margin: 0 auto 96px;
-
-}
-#products .productsTitle{
-	text-align:center;
-	margin-bottom:51px;
-	position: relative;
-	top: 20px;
-	opacity: 0;
-	transition: all 1s ease-in-out;
-
-}
-#products .productsText{
-	position: relative;
-	top: 20px;
-	opacity: 0;
-	transition: all 1s ease-in-out .5s;
-}
-#products .productsText ul li{
-	width: 304px;
-	height: 209px;
-	margin-left: 64px;
-	float: left;
-}
-#products .productsText .productsTextLi1{
-	background-image: url(../image/index/B5D2270D-E469-40E5-936F-4F7B710F8303@1x.png);
-	margin-left: 0
-}
-#products .productsText .productsTextLi2{
-	background-image: url(../image/index/4459285A-B13E-4063-9654-8CED73263C6D@1x.png);
-}
-#products .productsText .productsTextLi3{
-	background-image: url(../image/index/8D90AD51-6D27-4718-900E-5431AE732771@1x.png);
-}
-#products .productsText ul li .productsBg{
-	background-image:url(../image/index/CE4225CE-7739-470E-8CDC-ED7DB93901FA@1x.png);
-	width: 304px;
-	height: 209px;
-	background-size: cover;
-	position: relative;
-	cursor: pointer;
-}
-#products .productsText ul li .productsBg #playMiddleBtn{
-	background: url(../image/index/07E19987-43B0-4967-A1BC-03E65D4BCCAC@2x.png);
-	width: 39px;
-	height: 49.5px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -19.5px;
-	margin-top: -25px;
-	background-size:cover;
-/*	cursor: pointer;*/
-}
-#products .productsText ul li  #productsVideoBox{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	top: 0;
-	z-index: 999;
-	background:rgb(0,0,0,0.8);
-	display: none;
-}
-#products .productsText ul li  #productsVideoBox #middleVideo{
-	width: 50%;
-	position: relative;
-	left: 25%;
-	top: 25%
-
-}
-#products .productsText ul li  #productsVideoBox #middleClose{
-	background: url(../image/index/close.png) no-repeat;
-	background-size: cover;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	top:27%;
-	right: 26%;
-	z-index: 999;
-	cursor: pointer;
 }
 #activity{
 	width: 1040px;
@@ -449,6 +367,12 @@
 	letter-spacing:0;
 	text-align:left;
 }
+#cooperate #cooperateRight .cooperateText ul .cooperateLiLast .cooperateLiPhoto span{
+	font-size: 20px;
+	line-height: 28px;
+	display:block;
+	margin-left: 20px
+}
 #cooperate #cooperateRight .cooperateText ul .cooperateLiLast .cooperateLiPhoto:before{
 	content: "\20";
 	width: 26px;
@@ -457,11 +381,11 @@
 	background-size: cover;
 	position: absolute;
 	left:-36px;
-	top: 1px
+	top: 5px
 }
 #last{
 	width: 1040px;
-	margin: 111px auto;
+	margin: 0px auto;
 	position: relative;
 	top: 20px;
 	opacity: 0;

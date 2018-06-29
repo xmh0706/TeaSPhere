@@ -77,4 +77,12 @@
 	margin-top: 49px;
 	position: relative;
 }
-
+#main #mainRight .mainItemText .img img{
+	width: 690px;
+}
+#main #mainRight #mainRightItem4 .mainItemText{
+	margin-top: 0px
+}
+#main #mainRight #mainRightItem4 .mainItemText .img{
+	margin-top: 0px
+}
