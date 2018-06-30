@@ -38,7 +38,7 @@ window.onload=function(){
     }
     
     //标注点数组
-    var markerArr = [{title:"茶势力",content:"瑞光街瑞光创意工场壹号院 A408<br>电话:400-888-9999",
+    var markerArr = [{title:"茶势力",content:"瑞光路 瑞光创意工场壹号院四楼 A408<br>电话:400-999-3110",
     point:"113.64437|34.77013",isOpen:1,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
     ];
     //创建marker

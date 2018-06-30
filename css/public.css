@@ -1,5 +1,5 @@
 #autoPlay{
-	min-height: 560px;
+	min-height: 390px;
 	padding-top: 60px;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -10,13 +10,13 @@
 	width: 100%;
 	position: relative;
 	min-width: 1040px;
-	min-height: 560px;
+	min-height: 390px;
 	overflow: hidden;
 }
 #autoPlay .autoPlayWarp  li{
 	width: inherit;
 	background-size: cover;
-	min-height: 560px;
+	min-height: 390px;
 	min-width: 1040px;
 	height: inherit;
 	position: absolute;
@@ -26,14 +26,14 @@
 	cursor: pointer;
 }
 #autoPlay .autoPlayWarp .autoPlayLi1{
-	background-image: url(../image/public/5DBBD51A-A150-49B1-83E0-D1F4A7673ED3@1x.png);
+	background-image: url(../image/public/lunbo1.jpg);
 	display: block;
 }
 #autoPlay .autoPlayWarp .autoPlayLi2{
-	background-image: url(../image/public/41FF3C78-6827-429C-A5F3-5E68C8F630D6@1x.png);
+	background-image: url(../image/public/lunbo2.jpg);
 }
 #autoPlay .autoPlayWarp .autoPlayLi3{
-	background-image: url(../image/public/5DBBD51A-A150-49B1-83E0-D1F4A7673ED3@1x.png);
+	background-image: url(../image/public/lunbo3.jpg);
 }
 #autoPlay .autoPlayDot{
 	position: absolute;

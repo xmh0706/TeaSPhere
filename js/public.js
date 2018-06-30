@@ -27,7 +27,7 @@ $(document).ready(function(){
 	})
 ////获取轮播图片宽高
 	var image= new Image();
-	image.src="image/public/5DBBD51A-A150-49B1-83E0-D1F4A7673ED3@1x.png"
+	image.src="image/public/lunbo1.jpg"
 	image.onload=function(){
 		var bigWd=image.width
 		var bigHt=image.height
@@ -40,7 +40,7 @@ $(document).ready(function(){
 $(window).resize(function(){
 	//获取轮播图片宽高
 	var image= new Image();
-	image.src="image/public/5DBBD51A-A150-49B1-83E0-D1F4A7673ED3@1x.png"	
+	image.src="image/public/lunbo1.jpg"	
 		var bigWd=image.width
 		var bigHt=image.height
 		var scale=bigHt/bigWd
