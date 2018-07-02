@@ -70,8 +70,8 @@ video用的CSS
 }
 #commitment .commitmentWarp li{
 	position: relative;
-	margin-bottom: 55px;
-	height: 320px;
+	margin-bottom: 25px;
+	height: 250px;
 	top: 20px;
 	opacity: 0;
 }
@@ -86,8 +86,9 @@ video用的CSS
 }
 #commitment .commitmentWarp li .commitmentWarpImg{
 	width: 520px;
-	height: 320px;
+	height: 250px;
 	position: absolute;
+	background-size: cover;
 
 }
 #commitment .commitmentWarp li .img1{
@@ -128,8 +129,9 @@ video用的CSS
 	text-align:left;
 	position: absolute;
 	left: 50%;
-	top: 117px;
+	top: 50%;
 	margin-left: -74px;
+	margin-top: -48px;
 	font-family:PingFangSC-Light;
 }
 #commitment .commitmentWarp li .commitmentWarpTitleRight span{
@@ -146,22 +148,22 @@ video用的CSS
 	height: 120px;
 	position: absolute;	
 	font-family:PingFangSC-Light;
+	top: 50%;
+	margin-top: -60px;
+	margin-left: -140px;
 }
 #commitment .commitmentWarp li .commitmentWarpText span{
 	color: #d25f6a;
 	opacity: 0.8
 }
 #commitment .commitmentWarp li .text1{
-	top: 94px;
-	left:669px;
+	left:75%;
 }
 #commitment .commitmentWarp li .text2{
-	left: 101px;
-	top: 95px;
+	left: 25%;
 }
 #commitment .commitmentWarp li .text3{
-	left: 669px;
-	top: 99px;
+	left: 75%;
 }
 #find{
 	margin-bottom: 97px;
