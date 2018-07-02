@@ -194,22 +194,22 @@ video用的CSS
 	cursor: pointer;
 }
 #find .findText .findTextLi1{
-	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
+	background-image: url(../image/index/chanpin1.jpg);
 }
 #find .findText .findTextLi2{
-	background-image: url(../image/index/3867EF6E-3FA2-4C01-8072-DD7A347B48F0@2x.png);
+	background-image: url(../image/index/chanpin2.jpg);
 }
 #find .findText .findTextLi3{
-	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
+	background-image: url(../image/index/chanpin3.jpg);
 }
 #find .findText .findTextLi4{
-	background-image: url(../image/index/3867EF6E-3FA2-4C01-8072-DD7A347B48F0@2x.png);
+	background-image: url(../image/index/chanpin4.jpg);
 }
 #find .findText .findTextLi5{
-	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
+	background-image: url(../image/index/chanpin5.jpg);
 }
 #find .findText .findTextLi6{
-	background-image: url(../image/index/6A915046-924E-4DCC-89B0-8EEE8EED38DD@2x.png);
+	background-image: url(../image/index/chanpin6.jpg);
 }
 #find .findText .findFont{
 	width: 100%;
@@ -312,13 +312,12 @@ video用的CSS
 }
 #cooperate #cooperateLeft{
 	width: 50%;
-	height: auto;
 	min-width: 520px;
-	height: 600px;
-	background-image: url(../image/index/CA512086-C126-493A-9449-41B584B700DE@1x.png);
-	background-size: cover;
 	float: left;
-
+}
+#cooperate #cooperateLeft img{
+	width: 100%;
+	height: 600px;
 }
 #cooperate #cooperateRight{
 	width: 50%;
