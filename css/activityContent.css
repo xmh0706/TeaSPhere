@@ -39,6 +39,7 @@
 	margin-bottom: 23px;
 	text-align: left;
 	height: 53px;
+	width: 690px;
 }
 #content .contentTop .contentTitle{
 	font-family:PingFangSC-Regular;
@@ -64,6 +65,10 @@
 	width: 690px;
 	height: auto;
 	margin:20px 0;
+}
+#content .contentText img.biaoqing{
+	width: 300px;
+	margin-left: 195px
 }
 #contentRight{
 	width: 277px;
