@@ -281,7 +281,7 @@ video用的CSS
 	font-size:16px;
 }
 #activity ul li .actFont a {
-	color:rgba(0,0,0);
+	color:rgb(0,0,0);
 }
 #activity ul li .actFont a:hover{
 	color:#bb1020
