@@ -62,8 +62,7 @@ header #head .navList li a{
 	text-align:left;
 	height: 30px;
 	line-height: 30px;
-	display: block;
-		
+	display: block;	
 }
 header #head .navList li a.listNow{
 	border-bottom:1px solid #bb1020;
