@@ -31,9 +31,10 @@ header #head{
 
 }
 header #head .headLogo{
-	background: url(../image/head/0C01337C-B483-45A0-B1DC-9E929D2D2E26@1x.png);
+	background-image: url(../image/head/0C01337C-B483-45A0-B1DC-9E929D2D2E26@1x.png);
+	background-size: cover;
 	height: 30px;
-	width: 139px;
+	width: calc(248px * 30/47);
 	position: absolute;
 	margin: 15px 0;	
 
